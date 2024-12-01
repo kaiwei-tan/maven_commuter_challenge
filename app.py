@@ -7,7 +7,7 @@ from datetime import datetime
 
 app = Dash(__name__)
 server = app.server
-app.title = 'NYC Transit'
+app.title = 'MTA Post-Pandemic Recovery'
 
 services = {
     'subways': 'Subways',
