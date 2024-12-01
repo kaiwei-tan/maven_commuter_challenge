@@ -180,7 +180,7 @@ def update_figure(service):
                 x=df_weekly['week'].max(),
                 y=df_weekly[df_weekly['service'] == service]['percent_change'].tail(1).item(),
                 text=service,
-                font=dict(color='black'),
+                font=dict(color=color_discrete_map[service]),
                 showarrow=False,
                 xanchor='left'
             )
