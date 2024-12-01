@@ -20,13 +20,13 @@ In order to get the data in a form required for the desired visualization, I too
 
 ## Additional information
 I quickly also realized I needed to pick milestone events. The pandemic years were immensely eventful, and after lots of news articles and Wiki summaries, I was able to pick major milestones which likely have had a on MTA numbers:
-- First COVID-19 case attributed to New York City (March 3, 2020) [NBC New York] and subsequent "New York on PAUSE" lockdown [nyc.gov]
-- City reopening in four biweekly phases (June 8, 2020) [NBC New York]
-- Beginning of city vaccination program (December 21, 2020) [NBC New York]
-- City workers returning to office (September 13, 2021) [nyc.gov]
-- First Omicron case attributed to New York City (December 2, 2021) [NBC New York]
-- Lifting of mask mandates on MTA transport (September 7, 2022) [Curbed]
-- Expansion of city remote work programs (October 23, 2023) [amNew York]
+- First COVID-19 case attributed to New York City (March 3, 2020) and subsequent "New York on PAUSE" lockdown [nyc.gov]
+- City reopening in four biweekly phases (June 8, 2020)
+- Beginning of city vaccination program (December 21, 2020
+- City workers returning to office (September 13, 2021)
+- First Omicron case attributed to New York City (December 2, 2021)
+- Lifting of mask mandates on MTA transport (September 7, 2022)
+- Expansion of city remote work programs (October 23, 2023)
 
 # Dashboard
 Using the compiled information I was able to create a simple dashboard to answer an overarching question, "Have MTA commutes recovered to pre-pandemic levels?"
@@ -35,9 +35,9 @@ The dashboard includes an "All service" view and service-specific drilldowns.
 
 # Insights
 ## Overall services
-Car traffic through Bridges and Tunnels recovered quickly, likely due to high car dependency during the pandemic period [StreetsBlog NYC]. Access-a-Ride usage has also rebounded, in fact beyond pre-pandemic numbers.
+Car traffic through Bridges and Tunnels recovered quickly, likely due to high car dependency during the pandemic period. Access-a-Ride usage has also rebounded, in fact beyond pre-pandemic numbers.
 
 Other public transit services (Subways, Buses, Metro-North, LIRR) still lag behind and have not recovered fully.
 
 ## Individual services
-Interestingly, despite not having recovered to pre-pandemic levels overall, we see different trends for certain services when we break them down to weekdays against weekends. Examples include the LIRR and Metro-North networks, where weekend numbers were driven by leisure travel [New York State official website], which have rebounded more strongly as compared to regular commuting during the weekdays.
+Interestingly, despite not having recovered to pre-pandemic levels overall, we see different trends for certain services when we break them down to weekdays against weekends. Examples include the LIRR and Metro-North networks, where weekend numbers were driven by leisure travel, which have rebounded more strongly as compared to regular commuting during the weekdays.
