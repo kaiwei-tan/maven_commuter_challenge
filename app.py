@@ -1,5 +1,4 @@
 from dash import Dash, dcc, html, callback, no_update, Input, Output
-import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
@@ -247,7 +246,7 @@ def update_figure(service):
         zerolinecolor='gray'
     )
     
-    fig.update_traces(hovertemplate='Week of %{x}<br><b>%{y:+g.0}%</b> from pre-pandemic')
+    fig.update_traces(hovertemplate='Week of %{x}<br><b>%{y:+d}%</b> from pre-pandemic')
     
     for key, value in annotations.items():
         fig.add_vline(
