@@ -6,7 +6,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-app = Dash()
+app = Dash(__name__)
+server = app.server
 app.title = 'NYC Transit'
 
 services = {
